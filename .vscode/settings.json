@@ -1,0 +1,21 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.rulers": [120],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLens": true,
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "diffEditor.wordWrap": "on",
+  "diffEditor.codeLens": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "javascript.preferences.quoteStyle": "double"
+}
