@@ -1,9 +1,9 @@
 export interface Filter {
   type: "input" | "select"
   placeholder: string
-  onSetNewValue: (value: string | number | boolean) => void
-  options?: { label: string; value: string | number | boolean }[]
-  value?: string | number | boolean
+  onSetNewValue: (value: any) => void
+  options?: { label: string; value: any }[]
+  value?: any
 }
 
 export interface Column {

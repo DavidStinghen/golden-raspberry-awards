@@ -33,7 +33,9 @@
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     "simple-import-sort/imports": "error",
-    "@typescript-eslint/no-unnecessary-type-assertion": "off"
+    "@typescript-eslint/no-unnecessary-type-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off"
   },
   "ignorePatterns": [".eslintrc.cjs", "vite.config.ts"]
 }

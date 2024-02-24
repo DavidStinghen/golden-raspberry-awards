@@ -129,6 +129,7 @@ export function Dashboard() {
               />
 
               <button
+                aria-label="search movie by year button"
                 data-testid="__dashboard_movie_winners_button"
                 type="button"
                 onClick={onClick}
