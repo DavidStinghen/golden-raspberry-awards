@@ -39,15 +39,19 @@ npm run dev
 Unlike development mode, when running the app using the file generated in the build, StrictMode is not activated.
 To test the app in the production version, follow the steps below:
 
-Download the package [serve](https://www.npmjs.com/package/serve)
+- Download and install the package serve
 
-Run the command below
+```sh
+npm install --global serve
+```
+
+- Run the command below to build the app
 
 ```sh
 npm run build
 ```
 
-Run the command below
+- Run the command below to run the app
 
 ```sh
 serve -s dist
