@@ -28,14 +28,29 @@ npm run prepare
 
 ### Compile and Hot-Reload for Development
 
+To find common bugs in components early during development the command below runs the app on StrictMode, for this reason the components will re-render an extra time, re-run Effects an extra time and be checked for usage of deprecated APIs. Check the [React StrictMode doc](https://react.dev/reference/react/StrictMode).
+
 ```sh
 npm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
+Unlike development mode, when running the app using the file generated in the build, StrictMode is not activated.
+To test the app in the production version, follow the steps below:
+
+Download the package [serve](https://www.npmjs.com/package/serve)
+
+Run the command below
+
 ```sh
 npm run build
+```
+
+Run the command below
+
+```sh
+serve -s dist
 ```
 
 ### Run Tests with [Vitest](https://vitest.dev/)
