@@ -87,7 +87,7 @@ export function Dashboard() {
               data-testid="__dashboard_producers_max_interval_wins_title"
               className="text-lg font-normal text-black"
             >
-              Maximun
+              Maximum
             </strong>
 
             <Datatable
@@ -102,7 +102,7 @@ export function Dashboard() {
               data-testid="__dashboard_producers_min_interval_wins_title"
               className="text-lg font-normal text-black"
             >
-              Minimun
+              Minimum
             </strong>
 
             <Datatable

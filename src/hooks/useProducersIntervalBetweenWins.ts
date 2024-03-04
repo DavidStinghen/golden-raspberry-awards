@@ -69,7 +69,7 @@ export const useProducersIntervalBetweenWins = () => {
 
         setProducerMinIntervalBetweenWins({
           ...producerMinIntervalBetweenWins,
-          rows: res.data.max.map((item) => ({
+          rows: res.data.min.map((item) => ({
             producer: item.producer,
             interval: item.interval,
             previousWin: item.previousWin,
